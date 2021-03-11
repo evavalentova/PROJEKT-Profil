@@ -37,7 +37,7 @@ body {
 }
 
 .foto {
-  width: 300px;
+  width: 100%;
 }
 
 .logo {
@@ -73,9 +73,10 @@ a {
 }
 
 .portfolio {
-  display: block;
   border-top: 1.5px solid #3f464d;
   border-bottom: 1.5px solid #3f464d;
+  display: inline-block;
+  width: 100%;
 }
 
 .portfolio a:hover {
@@ -85,6 +86,11 @@ a {
 .facebook,
 .twitter {
   display: inline-block;
+  width: 49.3%;
+}
+
+.facebook {
+  border-right: 1.5px solid #3f464d;
 }
 
 .facebook a:hover {
